@@ -1,0 +1,9 @@
+amount=1184
+n1=amount//100
+n2=(amount%100)//50
+n3=((amount%100)%50)//10
+n4=(((amount%100)%50)%10)//1
+print("100 Dollar bills =",n1)
+print("50 Dololar bills=",n2)
+print("10 Dollar bills =",n3)
+print("1 Dollar bill =",n4)
